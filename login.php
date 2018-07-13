@@ -45,7 +45,7 @@
 			$sql=mysql_query("select*from user where username='$user'");
 			$data=mysql_fetch_array($sql);
 			if($data){
-				header('Location : localhost');
+				header('Location: tables.php');
 			}
 			else{
 				echo 'Login Gagal';
@@ -70,20 +70,7 @@
 		                </span>
 		            </label>
 		            <button class="btn btn-theme btn-block" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
-		            <hr>
-		            
-		            <div class="login-social-link centered">
-		            <p>or you can sign in via your social network</p>
-		                <button class="btn btn-facebook" type="submit"><i class="fa fa-facebook"></i> Facebook</button>
-		                <button class="btn btn-twitter" type="submit"><i class="fa fa-twitter"></i> Twitter</button>
-		            </div>
-		            <div class="registration">
-		                Don't have an account yet?<br/>
-		                <a class="" href="#">
-		                    Create an account
-		                </a>
-		            </div>
-		
+		        
 		        </div>
 		
 		          <!-- Modal -->
