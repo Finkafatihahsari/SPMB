@@ -1,9 +1,3 @@
-<!--
-Author: WebThemez
-Author URL: http://webthemez.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <?php
 include "koneksi.php";
 ?>
@@ -14,7 +8,7 @@ include "koneksi.php";
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="free-educational-responsive-web-template-webEdu">
 	<meta name="author" content="webThemez.com">
-	<title>WEBSITE SEKOLAH NEGERI</title>
+	<title>WEBSITE SPMB</title>
 	<link rel="favicon" href="assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -22,11 +16,6 @@ include "koneksi.php";
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen"> 
 	<link rel="stylesheet" href="assets/css/style.css">
     <link rel='stylesheet' id='camera-css'  href='assets/css/camera.css' type='text/css' media='all'> 
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	<script src="assets/js/html5shiv.js"></script>
-	<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
 </head>
 <body>
 	<!-- Fixed navbar -->
@@ -36,7 +25,7 @@ include "koneksi.php";
 				<!-- Button for smallest screens -->
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
 				<a class="navbar-brand" href="./" style="color:red">
-				<marquee>	WEBSITE SEKOLAH <span class="fa fa-facebook"></span></marquee></a> 
+				<marquee>Website PMB Univertas <span class=""></span></marquee></a> 
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
@@ -59,17 +48,16 @@ include "koneksi.php";
 		<div class="container">
              <div class="heading-text">							
 							<h1 class="animated flipInY delay1">Pendaftaran Online</h1> <br/>
-							<p>Mari Bersama-Sama Memajukan Anak Bangsa dalam Pendidikan</p>
 						</div>
             
 					<div class="fluid_container">                       
                     <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
-                        <div data-thumb="assets/images/slides/thumbs/img1.jpg" data-src="assets/images/slides/img1.jpg">
+                        <div data-thumb="assets/images/slides/thumbs/img1.jpg" data-src="assets/images/slides/unnar1.jpg">
                             <h2>We develop.</h2>
                         </div> 
-                        <div data-thumb="assets/images/slides/thumbs/img2.jpg" data-src="assets/images/slides/img2.jpg">
+                        <div data-thumb="assets/images/slides/thumbs/img2.jpg" data-src="assets/images/slides/unnar2.jpg">
                         </div>
-                        <div data-thumb="assets/images/slides/thumbs/img3.jpg" data-src="assets/images/slides/img3.jpg">
+                        <div data-thumb="assets/images/slides/thumbs/img3.jpg" data-src="assets/images/slides/unnar3.jpg">
                         </div> 
                     </div><!-- #camera_wrap_3 -->
                 </div><!-- .fluid_container -->
@@ -83,7 +71,7 @@ include "koneksi.php";
 					<div class="col-md-12">
 						<div class="grey-box-icon b4">  
 							<h4>WELCOME</h4>
-							<p>Selamat datang Di pendaftaran Online SD Negeri , daftarakan diri anda segera </p>
+							<p>Selamat datang Di pendaftaran Online Universitas, daftarakan diri anda segera </p>
      						<p><a href="./pendaftaran.php"><em>Daftarkan →</em></a></p>
 						</div><!--grey box -->
 					</div><!--/span3-->
@@ -109,9 +97,9 @@ include "koneksi.php";
                          <h4>Contact</h4> 
                         <p>Hubungi Kami Jika ada Masalah</p>
             <div class="contact-info"> 
-            <i class="fa fa-map-marker"></i> Ibu ani<br>
+            <i class="fa fa-map-marker"></i> Universitas x Surabaya<br>
             <i class="fa fa-phone"></i>+81262612222 <br>
-             <i class="fa fa-envelope-o"></i> Sdn.sekolah@gmail.com
+            <i class="fa fa-envelope-o"></i> Universitas@univ.ac.id
               </div> 
                 </div><!-- end widget --> 
     </div>
@@ -131,17 +119,7 @@ include "koneksi.php";
 		<div class="footer2">
 			<div class="container">
 				<div class="row">
-
-				
-
-					<div class="col-md-12 panel">
-						<div class="panel-body">
-							<p class="text-right">
-								Copyright &copy; 2016. Titin Ariska Sibarani
-							</p>
-						</div>
-					</div>
-
+	
 				</div>
 				<!-- /row of panels -->
 			</div>
